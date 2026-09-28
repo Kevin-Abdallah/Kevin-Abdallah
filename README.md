@@ -14,7 +14,7 @@ and working toward financial-crime analytics.
 
 ## Projects
 
-### [Retail Retention & Customer Lifetime Value](https://github.com/idkibebs/retail-retention)
+### [Retail Retention & Customer Lifetime Value](https://github.com/Kevin-Abdallah/retail-retention)
 `Python` · `scikit-learn` · `Streamlit` · [**live dashboard →**](https://retail-retention-kevin.streamlit.app)
 
 1.07M transactions → 779,425 auditable line items, every exclusion counted and explained.
@@ -22,7 +22,7 @@ A **time-aware, leak-free** repeat-purchase model at **ROC-AUC 0.81**, RFM segme
 (1,473 Champions = 25% of customers, 69% of revenue), and a CLV ranking that concentrates
 42% of predicted value in the top decile. Shipped with pytest and CI.
 
-### [Estimating BIXI's Revenue from Open Data](https://github.com/idkibebs/bixi-revenue-model)
+### [Estimating BIXI's Revenue from Open Data](https://github.com/Kevin-Abdallah/bixi-revenue-model)
 `Python` · `pandas`
 
 BIXI publishes 5.6M trip records but not its revenue. I reconstructed the missing number from
@@ -30,14 +30,14 @@ first principles and checked it against the audited statements: mid-case **$7.52
 audited (+19%)**, with an uncertainty band that contained the truth. The sensitivity analysis
 flagged the dominant error source in advance — and back-solving the model confirmed it.
 
-### [BIXI Destination Coupons](https://github.com/idkibebs/bixi-destination-coupons)
-`Python` · `geospatial` · [**interactive prototype →**](https://idkibebs.github.io/bixi-destination-coupons/prototype/)
+### [BIXI Destination Coupons](https://github.com/Kevin-Abdallah/bixi-destination-coupons)
+`Python` · `geospatial` · [**interactive prototype →**](https://kevin-abdallah.github.io/bixi-destination-coupons/prototype/)
 
 14.2M trips, 128 chronically underused stations, and a partner-funded incentive mechanism that
 costs the operator nothing. Includes an **out-of-sample forward test** — predictions published
 *before* the week they forecast, then scored.
 
-### [BIXI GBFS Logger](https://github.com/idkibebs/Bixilogger)
+### [BIXI GBFS Logger](https://github.com/Kevin-Abdallah/Bixilogger)
 `Python` · `GitHub Actions`
 
 The trip history shows rides that happened, never demand that went unmet. So I built a logger
